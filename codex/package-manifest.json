@@ -1,0 +1,37 @@
+{
+  "name": "codex-portable-migration",
+  "createdFor": "portable Codex plugin and skill migration",
+  "sourceMachineUser": "17335",
+  "excludes": [
+    "app connector plugins and OAuth state",
+    "Browser plugin",
+    "Chrome plugin",
+    "Computer Use plugin",
+    "auth.json",
+    "state/log sqlite files",
+    "machine-bound native host state"
+  ],
+  "plugins": [
+    "build-ios-apps",
+    "build-macos-apps",
+    "build-web-apps",
+    "build-web-data-visualization",
+    "documents",
+    "hyperframes",
+    "presentations",
+    "product-design",
+    "remotion",
+    "snap2ui",
+    "spreadsheets",
+    "superpowers"
+  ],
+  "skillRoots": [
+    "skills/agents",
+    "skills/codex",
+    "skills/system/.system"
+  ],
+  "runtimeBundles": [
+    "runtime/codex-primary-runtime"
+  ],
+  "installer": "install.ps1"
+}

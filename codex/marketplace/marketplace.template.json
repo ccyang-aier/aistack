@@ -1,0 +1,77 @@
+{
+  "name": "codex-portable-migration",
+  "plugins": [
+    {
+      "name": "build-ios-apps",
+      "source": { "source": "local", "path": "./plugins/build-ios-apps" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Portable"
+    },
+    {
+      "name": "build-macos-apps",
+      "source": { "source": "local", "path": "./plugins/build-macos-apps" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Portable"
+    },
+    {
+      "name": "build-web-apps",
+      "source": { "source": "local", "path": "./plugins/build-web-apps" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Portable"
+    },
+    {
+      "name": "build-web-data-visualization",
+      "source": { "source": "local", "path": "./plugins/build-web-data-visualization" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Portable"
+    },
+    {
+      "name": "documents",
+      "source": { "source": "local", "path": "./plugins/documents" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Portable"
+    },
+    {
+      "name": "hyperframes",
+      "source": { "source": "local", "path": "./plugins/hyperframes" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Portable"
+    },
+    {
+      "name": "presentations",
+      "source": { "source": "local", "path": "./plugins/presentations" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Portable"
+    },
+    {
+      "name": "product-design",
+      "source": { "source": "local", "path": "./plugins/product-design" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Portable"
+    },
+    {
+      "name": "remotion",
+      "source": { "source": "local", "path": "./plugins/remotion" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Portable"
+    },
+    {
+      "name": "snap2ui",
+      "source": { "source": "local", "path": "./plugins/snap2ui" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Portable"
+    },
+    {
+      "name": "spreadsheets",
+      "source": { "source": "local", "path": "./plugins/spreadsheets" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Portable"
+    },
+    {
+      "name": "superpowers",
+      "source": { "source": "local", "path": "./plugins/superpowers" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Portable"
+    }
+  ]
+}
